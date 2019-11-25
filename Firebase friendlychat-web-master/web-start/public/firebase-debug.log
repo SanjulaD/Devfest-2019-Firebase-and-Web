@@ -1,0 +1,37 @@
+[debug] [2019-11-23T06:36:11.931Z] ----------------------------------------------------------------------
+[debug] [2019-11-23T06:36:11.933Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-11-23T06:36:11.933Z] CLI Version:   7.8.1
+[debug] [2019-11-23T06:36:11.933Z] Platform:      win32
+[debug] [2019-11-23T06:36:11.933Z] Node Version:  v10.16.0
+[debug] [2019-11-23T06:36:11.934Z] Time:          Sat Nov 23 2019 12:06:11 GMT+0530 (India Standard Time)
+[debug] [2019-11-23T06:36:11.934Z] ----------------------------------------------------------------------
+[debug] [2019-11-23T06:36:11.935Z] 
+[debug] [2019-11-23T06:36:11.949Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-23T06:36:11.950Z] > authorizing via signed-in user
+[debug] [2019-11-23T06:36:11.950Z] [iam] checking project devfest2019-240f9 for permissions ["firebase.projects.get"]
+[debug] [2019-11-23T06:36:11.952Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/devfest2019-240f9:testIamPermissions  
+
+[debug] [2019-11-23T06:36:15.893Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-23T06:36:15.899Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/devfest2019-240f9  
+ 
+[debug] [2019-11-23T06:36:19.232Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Projects\Devfest\Firebase\friendlychat-web-master\web-start'...
+[info] 
+[debug] [2019-11-23T06:36:19.257Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/devfest2019-240f9/webApps/-/config  
+ 
+[debug] [2019-11-23T06:36:20.565Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5005
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "D:\Projects\Devfest\Firebase\friendlychat-web-master\web-start\functions" for Cloud Functions...
+[debug] [2019-11-23T06:36:21.906Z] [worker-~diagnostic~-9a014bf1-c539-463c-9cec-2847a8b6492c]: Assigning socketPath: \\?\pipe\D:\Projects\Devfest\Firebase\friendlychat-web-master\web-start\functions\24868
+[debug] [2019-11-23T06:36:21.908Z] [worker-~diagnostic~-9a014bf1-c539-463c-9cec-2847a8b6492c]: BUSY
+[debug] [2019-11-23T06:36:22.969Z] [runtime-status] [24868] Functions runtime initialized. {"cwd":"D:\\Projects\\Devfest\\Firebase\\friendlychat-web-master\\web-start\\functions","node_version":"10.16.0"}
+[debug] [2019-11-23T06:36:22.972Z] [runtime-status] [24868] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-11-23T06:36:23.006Z] [worker-~diagnostic~-9a014bf1-c539-463c-9cec-2847a8b6492c]: exited
+[debug] [2019-11-23T06:36:23.006Z] [worker-~diagnostic~-9a014bf1-c539-463c-9cec-2847a8b6492c]: FINISHED
